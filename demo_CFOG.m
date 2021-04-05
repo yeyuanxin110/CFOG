@@ -3,9 +3,9 @@ clear;
 
 
 % optical and sar matching
-im_Ref = imread('.\data\optical_ref.png');
-im_Sen = imread('.\data\SAR_sen.png');
-CP_initial_file = '.\data\OpticaltoSAR_initialCP.txt';
+%im_Ref = imread('.\data\optical_ref.png');
+%im_Sen = imread('.\data\SAR_sen.png');
+%CP_initial_file = '.\data\OpticaltoSAR_initialCP.txt';
 
 
 %lidar depth and optical matching
@@ -19,6 +19,12 @@ CP_initial_file = '.\data\OpticaltoSAR_initialCP.txt';
 %  im_Sen = imread('.\data\infrared_sen.tif');
 %  CP_initial_file = '.\data\VisibletoInfrared_initialCP.txt';
 
+% % %visible and SAR image matching
+  im_Ref = imread('.\data\Stest3_ref.tif');
+  im_Sen = imread('.\data\Stest3_sen.tif');
+  CP_initial_file = '.\data\Stest3gcp.pts';
+
+
 %im_Ref = imread('s2test.tif');
 %im_Sen = imread('s1test.tif');
 %CP_initial_file = 'gcp.pts';
@@ -31,9 +37,11 @@ tic
 [CP_Ref,CP_Sen] = CFOG_match(im_Ref,im_Sen,CP_initial_file);
 fprintf('the total matching time is %fs\n',toc);
 
+%error theshold
+errThe = 0.5;
 
 %detect the error
-[corrRefPt,corrSenPt] = ErrorDect(CP_Ref,CP_Sen,0,1);
+[corrRefPt,corrSenPt] = ErrorDect(CP_Ref,CP_Sen,0,errThe);
 
 %wirite the point in the envi format
 corrPT = [corrRefPt,corrSenPt];%correct match
