@@ -48,7 +48,7 @@ if nargin < 3
     return;
 end
 if nargin < 4
-    disthre = 1.5;        % the threshod of match errors
+    disthre = 1.5;        % the threshod of match errors,here we do not use that
 end
 if nargin < 5
     tranFlag = 0;            % the type of geometric transformation between images
@@ -102,12 +102,18 @@ pNum = size(points1,1); % the number of interest points
 
 %caculate the CFOG 
 tic;
-% using c++ code
- feature_Ref = CFOG(single(im_Ref));
- feature_Sen = CFOG(single(im_Sen));
+
 % using matlab code
-% feature_Ref = CFOH(single(im_Ref),8,1.0);
-%  feature_Sen = CFOH(single(im_Sen),8,1.0);
+ feature_Ref = CFOG_matlab(single(im_Ref));
+  feature_Sen = CFOG_matlab(single(im_Sen));
+
+% using c++ code
+% feature_Ref = CFOG_C(single(im_Ref));
+% feature_Sen = CFOG_C(single(im_Sen));
+
+
+
+  
 %feature_Ref = im_Ref;
 %feature_Sen = im_Sen;
 fprintf('the feature extraction time for two images is %fs\n',toc);
