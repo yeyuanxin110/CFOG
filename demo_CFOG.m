@@ -38,7 +38,7 @@ tic
 fprintf('the total matching time is %fs\n',toc);
 
 %error theshold
-errThe = 0.5;
+errThe =1.5;
 
 %detect the error
 [corrRefPt,corrSenPt] = ErrorDect(CP_Ref,CP_Sen,0,errThe);
