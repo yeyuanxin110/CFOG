@@ -10,6 +10,16 @@ This  algorithm have achieve the invention patent，which  is provided for resea
 use is prohibited. If you are interested in a commercial use, please 
 contact the copyright holder. 
 
+
+The code includes some matlab .m files and some .mex file  The code is only for 64-bit windows 
+
+
+if there are some bugs, Please report bugs to yeyuanxin, yeyuanxin110@163.com
+
+
+Run demo.m in MATLAB and you will see how the proposed matching framewrok works.
+
+
 知识产权声明
   论文介绍的是一种通用的多模态遥感图像匹配框架，已获得专利权，所提出的框架可以利用各种特征描述符如HOG、LSS、CFOG、各种梯度信息，相位信息，边缘信息等
 构建逐像素的三维特征表达图（本发明不对具体特征进行限定），然后利用各种相似性测度如相关系数，灰度差平方和，欧式距离、互信息和相位相关等进行模板匹配
@@ -19,20 +29,6 @@ contact the copyright holder.
 版本更新说明（Updated instructions）
   在这个软件中，我们也更新了CFOG代码，比之前的版本具有更优越的匹配性能
   In our software，CFOG has been updated， which has better matching performance than the previous version
-
-
- 
-------------------------- Important -------------------------
-The code includes some matlab .m files and some .mex file  The code is only for 64-bit windows 
-
--------------------------------------------------------------
-
-for bugs
-Please report bugs to yeyuanxin, yeyuanxin110@163.com
-------------------------------
-
-
-Run demo.m in MATLAB and you will see how the proposed matching framewrok works.
 
 
 yuanxin ye
