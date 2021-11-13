@@ -31,6 +31,7 @@ Run demo.m in MATLAB and you will see how the proposed matching framewrok works.
 版本更新说明（Updated instructions）
 
 在这个软件中，我们也更新了CFOG代码，比之前的版本具有更优越的匹配性能
+
 In our software，CFOG has been updated， which has better matching performance than the previous version
   
 yuanxin ye
