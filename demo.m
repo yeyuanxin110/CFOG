@@ -28,9 +28,9 @@ addpath('.\pixel-wise feature represatation\FSURF');
 % CP_initial_file = '.\other data\optical-LiDAR\LiDARToVisible1.txt';
 
 %map and optical matching 
-im_Ref = imread('.\other data\optical-Map\optical1_ref.tif');
-im_Sen = imread('.\other data\optical-Map\map1_sen.tif');
-CP_initial_file = '.\other data\optical-Map\opticalToMap1_CP.txt';
+% im_Ref = imread('.\other data\optical-Map\optical1_ref.tif');
+% im_Sen = imread('.\other data\optical-Map\map1_sen.tif');
+% CP_initial_file = '.\other data\optical-Map\opticalToMap1_CP.txt';
  
 
 %hongtu
@@ -41,11 +41,11 @@ CP_initial_file = '.\other data\optical-Map\opticalToMap1_CP.txt';
 % image matching using the proposed framework.
 tic
 %using CFOG
-%[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'CFOG');
+[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'CFOG');
 %using FHOG
 %[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'FHOG');
 %using FLSS
-[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'FLSS');
+%[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'FLSS');
 %using FSURF 
 %[CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,'FSURF');
 
