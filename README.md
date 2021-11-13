@@ -27,7 +27,7 @@ The code includes some matlab .m files and some .mex file  The code is only for 
 
 -------------------------------------------------------------
 
--------------------------- bugs -----------------------------
+for bugs
 Please report bugs to yeyuanxin, yeyuanxin110@163.com
 ------------------------------
 
