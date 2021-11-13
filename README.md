@@ -1,4 +1,5 @@
-The proposed matching framework
+A fast and robust matching framework for multimodal remote sensing image registration
+
 This is the software package of our paper:
 
 Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration，TGRS，2019.
