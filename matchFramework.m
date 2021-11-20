@@ -58,7 +58,7 @@ if nargin < 6
     tranFlag = 0;            % the type of geometric transformation between images
 end
 if nargin < 7
-    templateSize = 40;% the template size
+    templateSize = 100;% the template size
 end
 if nargin < 8
     searchRad = 20;    % the radius of search region
