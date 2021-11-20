@@ -1,9 +1,12 @@
 function [CP_Ref,CP_Sen] = matchFramework(im_Ref,im_Sen,CP_initial_file,descriptor,disthre,tranFlag, templateSize, searchRad);
 
-% detect the tie points using HOPC  (histogram of oriented phase
-% congruency) by the template matching strategy.As the matlab cannot handle
-% the georeference information of images, we use some initial control points by manually ('CP_initial_file')
-% to determine the search region
+% detect the tie points using the proposed matching framework
+% As the matlab cannot handle the georeference information of images, 
+% we use some initial control points by manually ('CP_initial_file') to determine the search region
+%
+
+% If you use this implementation please cite:
+% Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration，TGRS，2019
 
 % If you use this implementation please cite:
 %
