@@ -19,7 +19,7 @@ end
 if nargin < 3
     sigma = 0.8;        % the sigma value of Guassian for caculating CFOG
 end 
-if flag < 4
+if nargin < 4
     flag = 0;            % using C version code
 end
 
