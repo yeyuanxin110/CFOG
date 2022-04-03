@@ -4,7 +4,6 @@ This is the software package of our paper:
 
 Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration，TGRS，2019.
 
-Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration（full version)，arXiv.
 
 Please cite our paper if you use our code for your research. 
 This  algorithm have achieve the invention patent，which  is provided for research purposes only. Any commercial
