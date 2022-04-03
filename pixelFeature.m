@@ -22,8 +22,10 @@ function [feature,flag] = pixelFeature(im,descriptor);
 flag = 1;
 switch(descriptor)
     case 'CFOG'
-        % caculate the CFOG
-        feature = CFOG(im,9,0.8,0);
+        % caculate the CFOG of C++ version
+        %feature = CFOG(im,9,0.8,0);
+         % caculate the CFOG of matlab version
+        feature = CFOG(im,9,0.8,1);
 
     case 'FHOG'
         %calculate the gradient magnitude and orientation
