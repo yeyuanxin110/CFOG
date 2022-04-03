@@ -1,23 +1,22 @@
 This is the software package of our paper:
 
-Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration£¬TGRS£¬2019.
+Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registrationï¼ŒTGRSï¼Œ2019.
 
-Y Ye, L Bruzzone, J Shan, F Bovolo, and Q Zhu. Fast and Robust Matching for Multimodal Remote Sensing Image Registration£¨full version)£¬arXiv.
 
 Please cite our paper if you use our code for your research. 
-This  algorithm have achieve the invention patent£¬which  is provided for research purposes only. Any commercial
+This  algorithm have achieve the invention patentï¼Œwhich  is provided for research purposes only. Any commercial
 use is prohibited. If you are interested in a commercial use, please 
 contact the copyright holder. 
 
-ÖªÊ¶²úÈ¨ÉùÃ÷
-  ÂÛÎÄ½éÉÜµÄÊÇÒ»ÖÖÍ¨ÓÃµÄ¶àÄ£Ì¬Ò£¸ĞÍ¼ÏñÆ¥Åä¿ò¼Ü£¬ÒÑ»ñµÃ×¨ÀûÈ¨£¬ËùÌá³öµÄ¿ò¼Ü¿ÉÒÔÀûÓÃ¸÷ÖÖÌØÕ÷ÃèÊö·ûÈçHOG¡¢LSS¡¢CFOG¡¢¸÷ÖÖÌİ¶ÈĞÅÏ¢£¬ÏàÎ»ĞÅÏ¢£¬±ßÔµĞÅÏ¢µÈ
-¹¹½¨ÖğÏñËØµÄÈıÎ¬ÌØÕ÷±í´ïÍ¼£¨±¾·¢Ã÷²»¶Ô¾ßÌåÌØÕ÷½øĞĞÏŞ¶¨£©£¬È»ºóÀûÓÃ¸÷ÖÖÏàËÆĞÔ²â¶ÈÈçÏà¹ØÏµÊı£¬»Ò¶È²îÆ½·½ºÍ£¬Å·Ê½¾àÀë¡¢»¥ĞÅÏ¢ºÍÏàÎ»Ïà¹ØµÈ½øĞĞÄ£°åÆ¥Åä
-£¨±¾·¢Ã÷²»¶Ô¾ßÌåÏàËÆĞÔ²â¶È½øĞĞÏŞ¶¨£©¡£ÕâÀï¿¼ÂÇ¼ÆËãĞ§ÂÊÎÊÌâ£¬ÎÒÃÇÍÆ¼öÊ¹ÓÃ»ùÓÚFFT¼ÓËÙµÄ»Ò¶È²îÆ½·½ºÍ»òÕß»¥Ïà¹Ø½øĞĞÆ¥Åä¡£
-ÓÉÓÚËù·¢Ã÷µÄ¿ò¼Ü¼¼ÊõÒÑ¾­³É¹¦ÉÌÒµ»¯£¬¶øÇÒĞÎ³ÉÁË´ó¹æÄ£¹¤³Ì»¯Ó¦ÓÃ£¬Òò´ËÔÚÃ»ÓĞ·¢Ã÷ÕßÍ¬ÒâµÄÇé¿öÏÂ£¬Ö»ÄÜ½«ÆäÓÃÓÚ¿ÆÑ§ÑĞ¾¿£¬²»ÄÜ½«ÆäÈÎºÎĞÎÊ½µÄÏîÄ¿»òÕßÉÌÒµ»¯Ó¦ÓÃ¡£
+çŸ¥è¯†äº§æƒå£°æ˜
+  è®ºæ–‡ä»‹ç»çš„æ˜¯ä¸€ç§é€šç”¨çš„å¤šæ¨¡æ€é¥æ„Ÿå›¾åƒåŒ¹é…æ¡†æ¶ï¼Œå·²è·å¾—ä¸“åˆ©æƒï¼Œæ‰€æå‡ºçš„æ¡†æ¶å¯ä»¥åˆ©ç”¨å„ç§ç‰¹å¾æè¿°ç¬¦å¦‚HOGã€LSSã€CFOGã€å„ç§æ¢¯åº¦ä¿¡æ¯ï¼Œç›¸ä½ä¿¡æ¯ï¼Œè¾¹ç¼˜ä¿¡æ¯ç­‰
+æ„å»ºé€åƒç´ çš„ä¸‰ç»´ç‰¹å¾è¡¨è¾¾å›¾ï¼ˆæœ¬å‘æ˜ä¸å¯¹å…·ä½“ç‰¹å¾è¿›è¡Œé™å®šï¼‰ï¼Œç„¶ååˆ©ç”¨å„ç§ç›¸ä¼¼æ€§æµ‹åº¦å¦‚ç›¸å…³ç³»æ•°ï¼Œç°åº¦å·®å¹³æ–¹å’Œï¼Œæ¬§å¼è·ç¦»ã€äº’ä¿¡æ¯å’Œç›¸ä½ç›¸å…³ç­‰è¿›è¡Œæ¨¡æ¿åŒ¹é…
+ï¼ˆæœ¬å‘æ˜ä¸å¯¹å…·ä½“ç›¸ä¼¼æ€§æµ‹åº¦è¿›è¡Œé™å®šï¼‰ã€‚è¿™é‡Œè€ƒè™‘è®¡ç®—æ•ˆç‡é—®é¢˜ï¼Œæˆ‘ä»¬æ¨èä½¿ç”¨åŸºäºFFTåŠ é€Ÿçš„ç°åº¦å·®å¹³æ–¹å’Œæˆ–è€…äº’ç›¸å…³è¿›è¡ŒåŒ¹é…ã€‚
+ç”±äºæ‰€å‘æ˜çš„æ¡†æ¶æŠ€æœ¯å·²ç»æˆåŠŸå•†ä¸šåŒ–ï¼Œè€Œä¸”å½¢æˆäº†å¤§è§„æ¨¡å·¥ç¨‹åŒ–åº”ç”¨ï¼Œå› æ­¤åœ¨æ²¡æœ‰å‘æ˜è€…åŒæ„çš„æƒ…å†µä¸‹ï¼Œåªèƒ½å°†å…¶ç”¨äºç§‘å­¦ç ”ç©¶ï¼Œä¸èƒ½å°†å…¶ä»»ä½•å½¢å¼çš„é¡¹ç›®æˆ–è€…å•†ä¸šåŒ–åº”ç”¨ã€‚
 
-°æ±¾¸üĞÂËµÃ÷£¨Updated instructions£©
-  ÔÚÕâ¸öÈí¼şÖĞ£¬ÎÒÃÇÒ²¸üĞÂÁËCFOG´úÂë£¬±ÈÖ®Ç°µÄ°æ±¾¾ßÓĞ¸üÓÅÔ½µÄÆ¥ÅäĞÔÄÜ
-  In our software£¬CFOG has been updated£¬ which has better matching performance than the previous version
+ç‰ˆæœ¬æ›´æ–°è¯´æ˜ï¼ˆUpdated instructionsï¼‰
+  åœ¨è¿™ä¸ªè½¯ä»¶ä¸­ï¼Œæˆ‘ä»¬ä¹Ÿæ›´æ–°äº†CFOGä»£ç ï¼Œæ¯”ä¹‹å‰çš„ç‰ˆæœ¬å…·æœ‰æ›´ä¼˜è¶Šçš„åŒ¹é…æ€§èƒ½
+  In our softwareï¼ŒCFOG has been updatedï¼Œ which has better matching performance than the previous version
 
 
  
@@ -37,4 +36,4 @@ Run demo.m in MATLAB and you will see how the proposed matching framewrok works.
 yuanxin ye
 
 southwestjiaotong university, Chengdu, China
-Nov. 2021
+April. 2022
